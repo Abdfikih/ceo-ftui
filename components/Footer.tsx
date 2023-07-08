@@ -57,7 +57,7 @@ const Footer: FC<FooterProps> = memo(({ className }) => (
           </div>
         </div>
 
-        <div className="flex justify-evenly justify-items-center lg:justify-start gap-x-12 w-full">
+        <div className="flex justify-evenly md:ml-36 justify-items-center lg:justify-start gap-x-12 w-full">
           <Image alt="" src="/logo_foot.png" width={90} height={80} layout="fixed" />
         </div>
 
