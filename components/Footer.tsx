@@ -5,8 +5,6 @@ import { twMerge } from "tailwind-merge"
 import Image from "next/image"
 import Link from "next/link"
 
-import { Hashtag } from "@icons"
-
 type FooterProps = {
   className?: string
 }
@@ -26,14 +24,6 @@ const Footer: FC<FooterProps> = memo(({ className }) => (
     <div className="container flex flex-col items-stretch gap-4">
       <div className="flex flex-col lg:flex-row lg:justify-between items-center lg:items-start gap-y-4 gap-x-8">
         <div className="flex justify-evenly lg:justify-start gap-x-8 w-full">
-          <div className="hidden lg:flex flex-col text-blue-ceo">
-            <h5>CEO 2022</h5>
-            <p className="relative z-0 text-sm italic">
-              <Hashtag className="absolute -z-10 inset-y-0 left-0 w-8 h-8 text-accent-2 -translate-x-2/3" />
-              Find Your Call <br /> Seize Your Opportunity
-            </p>
-          </div>
-
           <div className="flex flex-col">
             <h5 className="text-blue-ceo">Events</h5>
 
@@ -65,6 +55,10 @@ const Footer: FC<FooterProps> = memo(({ className }) => (
               <a>Media Partner</a>
             </Link>
           </div>
+        </div>
+
+        <div className="flex justify-evenly justify-items-center lg:justify-start gap-x-12 w-full">
+          <Image alt="" src="/logo_foot.png" width={90} height={80} layout="fixed" />
         </div>
 
         <div className="flex-shrink-0 flex flex-col">
@@ -103,7 +97,7 @@ const Footer: FC<FooterProps> = memo(({ className }) => (
         </div>
       </div>
 
-      <p className="place-self-center lg:place-self-end">CEO 2022 © All rights reserved</p>
+      <p className="place-self-center lg:place-self-end">CEO 2023 © All rights reserved</p>
     </div>
   </div>
 ))
