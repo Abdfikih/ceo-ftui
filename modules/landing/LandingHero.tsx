@@ -100,16 +100,27 @@ const LandingHero: FC = memo(() => (
     <div
       className={[
         "relative -z-10 aspect-square",
-        "   col-start-1    col-span-10    row-start-4              ",
-        "md:col-start-1 md:col-span-8     row-start-4              ",
-        "lg:col-start-2 lg:col-span-4  lg:row-start-3 lg:row-span-1",
+        "   col-start-5    col-span-2    row-start-1              ",
+        "md:col-start-5 md:col-span-8     row-start-1              ",
+        "lg:col-start-5 lg:col-span-4  lg:row-start-1 lg:row-span-1",
+        "mt-[-100px]",
       ].join(" ")}
     >
-      <Image alt="" src="/gradients/green.svg" layout="fill" />
+      <img alt="" src="/gradients/yellow_2.svg" className="w-full opacity-50" />
     </div>
 
-    <div className="relative -z-10 col-start-9 col-span-4 row-start-2 row-span-1 aspect-square rotate-90">
-      <Image alt="" src="/gradients/yellow.svg" layout="fill" />
+    <div
+      className={[
+        "relative -z-10 aspect-square",
+        "   col-start-1    col-span-2    row-start-3              ",
+        "md:col-start-1 md:col-span-8     row-start-3              ",
+        "lg:col-start-1 lg:col-span-4  lg:row-start-3 lg:row-span-1",
+      ].join(" ")}
+    >
+      <img alt="" src="/gradients/salem_2.svg" className="w-full opacity-50" />
+    </div>
+    <div className="relative -z-10 ml-64 col-start-8 col-span-8 row-start-2 row-span-4 aspect-square md:col-start-8 md:col-span-8 lg:col-start-8 lg:col-span-8 lg:row-start-2 lg:row-span-1">
+      <img alt="" src="/gradients/blue_2.svg" className="w-full opacity-50" />
     </div>
   </div>
 ))
