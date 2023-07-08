@@ -10,7 +10,7 @@ const NotFound: NextPage = () => (
       <div className="mb-10 lg:mb-20 animate-bounce">
         <FontAwesomeIcon icon={faGhost} className="w-24 h-24 lg:w-48 lg:h-48" />
       </div>
-      <h3 className="text-xl lg:text-3xl text-center lg:text-center">Error: 404 Page Not Found</h3>
+      <h3 className="text-xl lg:text-3xl text-center lg:text-center">Page Not Found</h3>
       <p className="text-sm lg:text-base lg:text-justify text-center lg:text-center">
         Website Dalam Pengembangan. Yooo Mari-Mari Ke Home. Terima Kasih
       </p>

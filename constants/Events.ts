@@ -15,7 +15,7 @@ export const EVENTS: Event[] = [
       " Grand Opening adalah acara pembuka rangkaian CEO FTUI 2022 melalui sesi webinar dan talkshow terkait kehidupan dan testimoni pascakampus mahasiswa FTUI.",
     route: "/grand-opening",
     posterSrc: "/images/poster-grand-opening.png",
-    startTimestamp: new Date("2022-08-21T13:00:00.000+0700"),
+    startTimestamp: new Date("2023-08-21T13:00:00.000+0700"),
   },
   {
     title: "CV & Interview Workshop",
@@ -23,7 +23,7 @@ export const EVENTS: Event[] = [
       "Workshop yang bertujuan membantu peserta dalam menguasai tahap seleksi CV dan interview sebagai proses fundamental rekrutmen.",
     route: "/workshop#cv",
     posterSrc: "/images/poster-workshop-cv.png",
-    startTimestamp: new Date("2022-09-04T13:00:00.000+0700"),
+    startTimestamp: new Date("2023-09-04T13:00:00.000+0700"),
   },
   {
     title: "Project Management Workshop",
@@ -31,7 +31,7 @@ export const EVENTS: Event[] = [
       "Workshop yang bertujuan meningkatkan wawasan dan softskill peserta dalam melakukan project management.",
     route: "/workshop#pm",
     posterSrc: "/images/poster-workshop-pm.png",
-    startTimestamp: new Date("2022-10-01T10:00:00.000+0700"),
+    startTimestamp: new Date("2023-09-01T10:00:00.000+0700"),
   },
   {
     title: "Job Fair",
@@ -39,7 +39,7 @@ export const EVENTS: Event[] = [
       "Acara puncak dari rangkaian CEO 2022 yang mewadahi peserta untuk mendapatkan informasi lebih lanjut terkait pekerjaan di berbagai perusahaan.",
     route: "/jobfair",
     posterSrc: "/images/poster-jobfair.png",
-    startTimestamp: new Date("2022-10-29T00:00:00.000+0700"),
+    startTimestamp: new Date("2023-09-29T00:00:00.000+0700"),
   },
 ]
 

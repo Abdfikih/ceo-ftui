@@ -14,6 +14,7 @@ module.exports = {
         light: {
           ...require("daisyui/src/colors/themes")["[data-theme=light]"],
           primary: "#215AA8",
+          secondary: "#FDDE5E",
         },
       },
     ],
@@ -37,6 +38,12 @@ module.exports = {
         },
         blue: {
           ceo: "#215AA8",
+        },
+        yellow: {
+          ceo: "#FDDE5E",
+        },
+        white: {
+          ceo: "#F8F6F2",
         },
         salem: {
           ceo: "#DA4E7A",

@@ -4,7 +4,7 @@ const CompanyProfile: FC = memo(() => (
   <div className="container flex flex-col items-center py-4 h-fit text-center">
     <h2>Persiapkan Kariermu Bersama CEO!</h2>
     <p className="b1 mt-5">
-      CEO adalah program kerja BEM FTUI 2022 yang bertujuan membekali dan memfasilitasi persiapan
+      CEO adalah program kerja BEM FTUI 2023 yang bertujuan membekali dan memfasilitasi persiapan
       mahasiswa, khususnya Fakultas Teknik UI, terjun ke dunia kerja melalui serangkaian seminar,{" "}
       <i>workshop</i>, dan Job Fair.
     </p>

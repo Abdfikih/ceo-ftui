@@ -80,7 +80,7 @@ const LoginModal: FC<LoginModalProps> = memo(({ open, onClose }) => {
               <span className="label-text-alt text-error">{errors.email?.message}</span>
             </label>
             <input
-              className={`input input-primary ${
+              className={`input border-blue-ceo input-secondary ${
                 errors.email && "input-error"
               } input-bordered w-full`}
               type="email"
@@ -95,7 +95,7 @@ const LoginModal: FC<LoginModalProps> = memo(({ open, onClose }) => {
               <span className="label-text-alt text-error">{errors.password?.message}</span>
             </label>
             <input
-              className={`input input-primary ${
+              className={`input border-blue-ceo input-secondary ${
                 errors.password && "input-error"
               } input-bordered w-full`}
               type="password"
@@ -105,19 +105,21 @@ const LoginModal: FC<LoginModalProps> = memo(({ open, onClose }) => {
           </div>
 
           <button
-            className={`btn btn-primary ${loading && "loading"} mt-4 w-full normal-case`}
+            className={`btn btn-primary btn bg-blue-ceo btn-secondary hover:text-blue-ceo ${
+              loading && "loading"
+            } mt-4 w-full normal-case`}
             type="submit"
           >
             Masuk
           </button>
         </form>
 
-        <h5 className="text-gray-dark">atau</h5>
-        <GoogleButton className="w-full" login onClick={googleLogin} />
+        <h5 className="text-blue-ceo">atau</h5>
+        <GoogleButton className="w-full  hover:bg-yellow-ceo" login onClick={googleLogin} />
 
         <p className="b2 text-primary">
           Belum memiliki akun?{" "}
-          <button className="font-bold" onClick={showRegisterModal}>
+          <button className="font-bold hover:text-yellow-ceo" onClick={showRegisterModal}>
             Daftar
           </button>
         </p>
