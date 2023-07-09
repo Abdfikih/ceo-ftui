@@ -25,7 +25,8 @@
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "tailwind-merge": "^1.6.0"
+    "tailwind-merge": "^1.6.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@tailwindcss/line-clamp": "^0.4.0",
