@@ -29,6 +29,9 @@ module.exports = {
         dropdown: "0px 6px 30px rgba(0, 0, 0, 0.12)",
         navbar: "0px -2px 15px rgba(0, 0, 0, 0.25)",
       },
+      zIndex: {
+        "-10": "-10",
+      },
       colors: {
         accent: {
           1: "#FBFF9D",
@@ -64,7 +67,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
         Inter: ["Inter", "sans-serif"],
-        Epilogue:["Epilogue", "sans-serif"]
+        Epilogue: ["Epilogue", "sans-serif"],
       },
     },
   },

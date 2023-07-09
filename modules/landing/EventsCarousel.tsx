@@ -78,10 +78,11 @@ const EventsCarousel: FC = memo(() => {
           Jangan Sampai <span className="text-gradient">Ketinggalan</span>
         </h2>
         <p className="b1 mt-4">Ikuti berbagai rangkaian acara CEO dengan mendaftarkan dirimu!</p>
-      </div>
 
-      <div>
-        <Timeline />
+        <div className="z--10">
+          {" "}
+          <Timeline />
+        </div>
       </div>
 
       <Carousel
