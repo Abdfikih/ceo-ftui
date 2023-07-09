@@ -1,20 +1,12 @@
 .subtitle > h2 {
   position: absolute;
   width: 100%;
-
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
   text-align: center;
-
-  opacity: 0;
-  animation: change-text 9s infinite;
 }
 
-.subtitle > h2:nth-of-type(2) {
-  animation-delay: 3s;
-}
-
-.subtitle > h2:nth-of-type(3) {
-  animation-delay: 6s;
-}
 
 @keyframes change-text {
   5% {

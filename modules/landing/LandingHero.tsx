@@ -6,17 +6,16 @@ import styles from "./LandingHero.module.css"
 import { ChevronDown } from "@icons"
 
 const LandingHero: FC = memo(() => (
-  <div className="overflow-hidden relative grid grid-cols-12 grid-rows-6 min-h-screen select-none">
+  <div className="overflow-hidden relative grid grid-cols-12 grid-rows-6 min-h-[150vh] select-none">
     <div className="container col-span-full row-start-3 row-span-full flex flex-col items-center">
-      <h1 className="text-salem-ceo font-bold">CEO 2023</h1>
-      <h4 className="text-black font-medium">Centers of Engineers Occupation</h4>
+      <h1 className="text-salem-ceo font-extrabold font-Epilogue text-8xl">CEO 2023</h1>
+      <h4 className="text-black font-Inter font-semibold text-3xl">Centers of Engineers Occupation</h4>
 
       <div className={`mt-12 relative w-full h-[4.5rem] ${styles.subtitle}`}>
-        <h2 className="text-gradient leading-none">Discover Opportunities</h2>
-        <h2 className="text-gradient leading-none">Connect With Your Future</h2>
+        <h2 className="text-gradient leading-none">Discover Opportunities,</h2>
+        <h2 className="text-gradient2 leading-none"><br/>Connect With Your Future</h2>
       </div>
 
-      <ChevronDown className="mt-12 md:mt-4 lg:mt-8 animate-bounce" />
     </div>
 
     {/* Decorations */}
@@ -85,17 +84,7 @@ const LandingHero: FC = memo(() => (
     </div>
 
     {/* Gradients */}
-    <div className="absolute -z-10 top-0 left-0 scale-x-[3] xl:scale-x-[5] -translate-y-[65%] xl:-translate-y-[60%] -translate-x-1/2">
-      <Image alt="" src="/gradients/blue.svg" width={360} height={360} layout="fixed" />
-    </div>
-
-    <div className="absolute -z-10 top-0 left-1/2 scale-x-[3] xl:scale-x-[5] -translate-y-[65%] xl:-translate-y-[60%] -translate-x-1/2">
-      <Image alt="" src="/gradients/green.svg" width={360} height={360} layout="fixed" />
-    </div>
-
-    <div className="absolute -z-10 top-0 right-0 scale-x-[3] xl:scale-x-[5] -translate-y-[65%] xl:-translate-y-[60%] translate-x-1/2">
-      <Image alt="" src="/gradients/yellow.svg" width={360} height={360} layout="fixed" />
-    </div>
+   
 
     <div
       className={[
@@ -119,7 +108,7 @@ const LandingHero: FC = memo(() => (
     >
       <img alt="" src="/gradients/salem_2.svg" className="w-full opacity-50" />
     </div>
-    <div className="relative -z-10 ml-64 col-start-8 col-span-8 row-start-2 row-span-4 aspect-square md:col-start-8 md:col-span-8 lg:col-start-8 lg:col-span-8 lg:row-start-2 lg:row-span-1">
+    <div className="relative -z-10 ml-64 col-start-8 col-span-8 row-start-2 row-span-4 aspect-square md:col-start-8 md:col-span-8 lg:col-start-6 lg:col-span-10 lg:row-start-2 lg:row-span-1">
       <img alt="" src="/gradients/blue_2.svg" className="w-full opacity-50" />
     </div>
   </div>

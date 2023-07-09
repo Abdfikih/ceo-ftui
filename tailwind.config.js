@@ -63,6 +63,8 @@ module.exports = {
         lato: ["Lato", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+        Inter: ["Inter", "sans-serif"],
+        Epilogue:["Epilogue", "sans-serif"]
       },
     },
   },
