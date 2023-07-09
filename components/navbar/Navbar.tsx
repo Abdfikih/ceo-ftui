@@ -24,7 +24,13 @@ const Navbar: FC<NavbarProps> = memo(({ className, mobileToggleId, ...rest }) =>
   const { showLoginModal } = useAuthModal()
 
   return (
-    <div className={twMerge("navbar sticky top-0 shadow-navbar select-none", className)} {...rest}>
+    <div
+      className={twMerge(
+        "navbar bg-white-ceo sticky top-0 shadow-navbar bg-nav select-none",
+        className
+      )}
+      {...rest}
+    >
       <div className="container">
         <Link href="/" passHref>
           <Image alt="" src="/logo.svg" width={150} height={80} layout="fixed" />

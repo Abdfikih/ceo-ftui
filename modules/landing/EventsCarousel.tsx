@@ -10,6 +10,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { EVENTS } from "@constants"
 import { ChevronRight } from "@icons"
 import { calculateTimeDifference } from "@utils"
+import Timeline from "components/timeline/Timeline"
 
 const EventsCarousel: FC = memo(() => {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -79,8 +80,12 @@ const EventsCarousel: FC = memo(() => {
         <p className="b1 mt-4">Ikuti berbagai rangkaian acara CEO dengan mendaftarkan dirimu!</p>
       </div>
 
+      <div>
+        <Timeline />
+      </div>
+
       <Carousel
-        className="mt-8 -mb-8 w-full"
+        className="mt-16 -mb-8 w-full"
         autoPlay={autoplay}
         centerMode
         infiniteLoop
