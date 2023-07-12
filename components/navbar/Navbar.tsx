@@ -26,8 +26,7 @@ const Navbar: FC<NavbarProps> = memo(({ className, mobileToggleId, ...rest }) =>
   return (
     <div
       className={twMerge(
-        "navbar bg-white-ceo sticky top-0 shadow-navbar bg-nav select-none",
-        className
+        "navbar bg-white-ceo sticky top-0 shadow-navbar select-none z-50",
       )}
       {...rest}
     >
@@ -52,7 +51,7 @@ const Navbar: FC<NavbarProps> = memo(({ className, mobileToggleId, ...rest }) =>
 
             <div
               tabIndex={0}
-              className="dropdown-content flex flex-col gap-4 mt-2 py-4 px-6 w-max bg-white rounded-lg shadow-dropdown"
+              className="dropdown-content flex flex-col gap-4 mt-2 py-4 px-6 w-max bg-white-ceo rounded-lg shadow-dropdown"
             >
               <Link href="/workshop#cv" passHref>
                 <a className="flex justify-start items-center gap-3 font-normal normal-case hover:text-blue-ceo">
