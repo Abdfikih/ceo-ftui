@@ -1,0 +1,48 @@
+.vision_text {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.5em; /* 40.928px */
+  letter-spacing: -0.05em;
+}
+
+.vision_title {
+  background: conic-gradient(
+    from 175deg at 40.66% 49.84%,
+    #c5446d 141.56248688697815deg,
+    #fdde5e 161.62198662757874deg,
+    #ffe478 280.661865234375deg,
+    #f8f6f2 320.2193212509155deg
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+}
+
+.red_balls {
+  background: radial-gradient(81.55% 81.55% at 69.75% 20.87%, #9d3052 0%, #da4e7a 100%);
+  filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.3));
+}
+
+.bg_title {
+  border-radius: 300px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 228, 78, 0.7) 20%,
+    rgb(255, 228, 78, 0.4) 40%,
+    rgba(235, 205, 78, 0.1) 80%,
+    rgba(235, 205, 78, 0)
+  );
+}
+
+.bg_title_rev {
+  border-radius: 300px;
+  background: linear-gradient(
+    -90deg,
+    rgb(255, 228, 78, 0.7) 20%,
+    rgb(255, 228, 78, 0.4) 40%,
+    rgba(235, 205, 78, 0.1) 80%,
+    rgba(235, 205, 78, 0)
+  );
+}
