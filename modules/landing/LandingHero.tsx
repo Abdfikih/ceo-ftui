@@ -3,19 +3,21 @@ import { FC, memo } from "react"
 import Image from "next/image"
 import styles from "./LandingHero.module.css"
 
-import { ChevronDown } from "@icons"
-
 const LandingHero: FC = memo(() => (
   <div className="overflow-hidden relative grid grid-cols-12 grid-rows-10 min-h-[150%] select-none">
     <div className="container col-span-full row-start-3 row-span-full flex flex-col items-center">
       <h1 className="text-salem-ceo font-extrabold font-Epilogue text-8xl">CEO 2023</h1>
-      <h4 className="text-black font-Inter font-semibold text-3xl">Centers of Engineers Occupation</h4>
+      <h4 className="text-black font-Inter font-semibold text-3xl">
+        Centers of Engineers Occupation
+      </h4>
 
       <div className={`mt-12 relative w-full h-[4.5rem] ${styles.subtitle}`}>
-        <h2 className="text-gradient leading-none">Discover Opportunities,</h2>
-        <h2 className="text-gradient2 leading-none"><br/>Connect With Your Future</h2>
+        <h2 className="text-gradient leading-none text-3xl sm:text-5xl">Discover Opportunities,</h2>
+        <h2 className="text-gradient2 leading-none text-3xl sm:text-5xl">
+          <br />
+          Connect With Your Future
+        </h2>
       </div>
-
     </div>
 
     {/* Decorations */}
@@ -31,7 +33,7 @@ const LandingHero: FC = memo(() => (
         <Image alt="" src="/images/Ellipse.svg" layout="fill" />
       </div>
     </div>
-{/* 
+    {/* 
     <div
       className={[
         "   col-start-2               row-start-5 row-span-2",
@@ -79,12 +81,11 @@ const LandingHero: FC = memo(() => (
       ].join(" ")}
     >
       <div className={`${styles.loupe} relative w-20 md:w-20 lg:w-full aspect-square`}>
-        <Image alt="" src="/images/rectangle.svg" layout="fill"  className="m-16"/>
+        <Image alt="" src="/images/rectangle.svg" layout="fill" className="m-16" />
       </div>
     </div>
 
     {/* Gradients */}
-   
 
     <div
       className={[

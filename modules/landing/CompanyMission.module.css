@@ -1,0 +1,26 @@
+.m {
+  background: linear-gradient(263.18deg, #215aa8 2.55%, #da4e7a 99.01%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+}
+
+.i1 {
+  background: linear-gradient(263.18deg, #215aa8 20.55%, #da4e7a 99.01%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+}
+.s {
+  background: linear-gradient(283.18deg, #215aa8 40.55%, #fdde5e 82.01%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+}
+
+.i2 {
+  background: linear-gradient(283.18deg, #215aa8 30.55%, #fdde5e 99.01%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+}

@@ -10,7 +10,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { EVENTS } from "@constants"
 import { ChevronRight } from "@icons"
 import { calculateTimeDifference } from "@utils"
-import Timeline from "components/timeline/Timeline"
 
 const EventsCarousel: FC = memo(() => {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -78,11 +77,6 @@ const EventsCarousel: FC = memo(() => {
           Jangan Sampai <span className="text-gradient">Ketinggalan</span>
         </h2>
         <p className="b1 mt-4">Ikuti berbagai rangkaian acara CEO dengan mendaftarkan dirimu!</p>
-
-        <div className="z--10">
-          {" "}
-          <Timeline />
-        </div>
       </div>
 
       <Carousel

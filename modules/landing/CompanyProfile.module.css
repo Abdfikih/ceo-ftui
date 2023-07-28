@@ -1,0 +1,13 @@
+.title {
+  -webkit-text-fill-color: transparent;
+  background: radial-gradient(
+    circle,
+    rgba(255, 215, 0, 1) 0%,
+    rgba(197, 68, 109, 1) 9%,
+    rgba(33, 90, 168, 1) 53%,
+    rgba(246, 210, 6, 1) 86%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+}
