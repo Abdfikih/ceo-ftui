@@ -1,21 +1,21 @@
 export const TimelineDataJuli = [
   {
-    date: "Sabtu, 29 Juli 2023",
+    date: "July 29",
     title: "Grand Launching",
     description: "",
   },
   {
-    date: "Senin, 28 Agustus 2023 - Jum'at, 1 September 2023",
+    date: "Aug 28 - Sept 1",
     title: "Company Visit",
     description: "",
   },
   {
-    date: "Sabtu, 09 September 2023",
+    date: "September 9",
     title: "Workshop",
     description: "",
   },
   {
-    date: "Senin, 25 September 2023 - Jum'at, 29 September 2023",
+    date: "September 25 -29",
     title: "Job Fair",
     description: "",
   },
