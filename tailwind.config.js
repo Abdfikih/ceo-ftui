@@ -25,12 +25,13 @@ module.exports = {
       padding: { DEFAULT: "1rem" },
     },
     extend: {
-           gridTemplateRows: {
-        '10': 'repeat(10, minmax(0, 1fr))',
+      gridTemplateRows: {
+        10: "repeat(10, minmax(0, 1fr))",
       },
       boxShadow: {
         dropdown: "0px 6px 30px rgba(0, 0, 0, 0.12)",
         navbar: "0px -2px 15px rgba(0, 0, 0, 0.25)",
+        mission: "-52px 42px 25px 0px rgba(0, 0, 0, 0.25) inset",
       },
       zIndex: {
         "-10": "-10",
