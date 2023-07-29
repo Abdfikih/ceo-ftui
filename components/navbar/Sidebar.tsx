@@ -25,7 +25,7 @@ const Sidebar: FC<SidebarProps> = memo(({ className }) => {
   return (
     <div
       className={twMerge(
-        "overflow-y-auto flex flex-col items-start gap-4 p-4 w-3/4 bg-white",
+        "overflow-y-auto flex flex-col items-start gap-4 p-4 w-3/4 bg-white-ceo",
         className
       )}
     >

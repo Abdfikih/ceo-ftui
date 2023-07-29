@@ -84,7 +84,7 @@ const Footer: FC<FooterProps> = memo(({ className }) => (
 
             <SocialMediaButton
               title="TikTok"
-              href="https://www.tiktok.com/@ceoftui"
+              href="https://www.tiktok.com/@ceoftui?_t=8eOBRimn3iS&_r=1"
               iconSrc="/icons/tiktok.svg"
               width="16"
               height="16"
@@ -100,7 +100,7 @@ const Footer: FC<FooterProps> = memo(({ className }) => (
 
             <SocialMediaButton
               title="YouTube"
-              href="https://www.youtube.com/channel/UCORRlKxjKlKOr2zvy1GOfYg"
+              href="https://youtube.com/@ceoftui2786"
               iconSrc="/icons/youtube.svg"
               width="17"
               height="17"
