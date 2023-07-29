@@ -2,13 +2,7 @@ import type { NextPage } from "next"
 import { useState } from "react"
 
 import { Page } from "@components"
-import {
-  CompanyMission,
-  CompanyProfile,
-  CompanyVision,
-  EventsCarousel,
-  LandingHero,
-} from "@modules"
+import { CompanyMission, CompanyVision, EventsTimeline, LandingHero } from "@modules"
 
 const Home: NextPage = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -22,8 +16,7 @@ const Home: NextPage = () => {
       <LandingHero />
       <CompanyVision />
       <CompanyMission />
-      <CompanyProfile />
-      <EventsCarousel />
+      <EventsTimeline />
     </Page>
   )
 }

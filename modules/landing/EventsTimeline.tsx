@@ -1,9 +1,9 @@
 import { FC, memo } from "react"
 
 import Timeline from "components/timeline/Timeline"
-import styles from "./CompanyProfile.module.css"
+import styles from "./EventsTimeline.module.css"
 
-const CompanyProfile: FC = memo(() => (
+const EventsTimeline: FC = memo(() => (
   <div className="container flex flex-col items-center py-4 h-fit text-center xl:px-72">
     <h2 className={`${styles.title}`}>Persiapkan Kariermu Bersama CEO!</h2>
     <p className="b1 mt-5">
@@ -18,5 +18,5 @@ const CompanyProfile: FC = memo(() => (
   </div>
 ))
 
-CompanyProfile.displayName = "CompanyProfile"
-export { CompanyProfile }
+EventsTimeline.displayName = "EventsTimeline"
+export { EventsTimeline }
