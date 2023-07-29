@@ -3,7 +3,7 @@ import styles from "./CompanyVision.module.css"
 
 const CompanyVision: FC = memo(() => (
   <div className="">
-    <div className="container mx-auto flex flex-col xl:px-80">
+    <div className="container mx-auto flex flex-col xl:px-80 lg:px-56">
       <div className="self-start m-5">
         <div
           className={`mt-5 my-5 flex relative pr-12 bg-blue-500 w-fit rounded-full ${styles.bg_title}`}

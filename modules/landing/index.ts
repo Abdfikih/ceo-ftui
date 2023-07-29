@@ -1,5 +1,6 @@
 export * from "./CompanyMission"
-export * from "./EventsTimeline"
 export * from "./CompanyVision"
 export * from "./EventsCarousel"
+export * from "./EventsTimeline"
 export * from "./LandingHero"
+export * from "./NewLandingHero"
