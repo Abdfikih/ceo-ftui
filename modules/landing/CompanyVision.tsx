@@ -11,8 +11,12 @@ const CompanyVision: FC = memo(() => (
           {/* <div
           className={`absolute w-full h-full opacity-20 mr-8 bg-yellow-400 rounded-full ${styles.bg_title}`}
         ></div> */}
-          <div className={`w-12 h-12 rounded-full my-auto mr-6 ${styles.red_balls}`}></div>
-          <h2 className={`text-4xl my-auto font-bold ${styles.vision_title}`}>Inclusive</h2>
+          <div
+            className={`w-12 h-12  xl:w-16 xl:h-16  rounded-full my-auto mr-6 ${styles.red_balls}`}
+          ></div>
+          <h2 className={`text-4xl xl:text-5xl my-auto font-bold ${styles.vision_title}`}>
+            Inclusive
+          </h2>
         </div>
         <p className={`${styles.vision_text} text-xl text-left ml-8 mr-2`}>
           CEO FTUI akan bersikap inklusif kepada seluruh mahasiswa dengan mengenalkan berbagai
@@ -25,8 +29,12 @@ const CompanyVision: FC = memo(() => (
         {/* <div
           className={`absolute w-full h-full opacity-20 mr-8 bg-yellow-400 rounded-full ${styles.bg_title}`}
         ></div> */}
-        <h2 className={`text-4xl my-auto font-bold ${styles.vision_title}`}>Intuitive</h2>
-        <div className={`w-12 h-12 rounded-full my-auto ml-6 ${styles.red_balls}`}></div>
+        <h2 className={`text-4xl xl:text-5xl my-auto font-bold ${styles.vision_title}`}>
+          Intuitive
+        </h2>
+        <div
+          className={`w-12 h-12 xl:w-16 xl:h-16 rounded-full my-auto ml-6 ${styles.red_balls}`}
+        ></div>
       </div>
       <p className={`${styles.vision_text} text-xl self-end text-right mr-14 ml-6`}>
         Mahasiswa diharapkan dapat mendengarkan intuisi mereka selama kegiatan CEO FTUI untuk
@@ -40,8 +48,12 @@ const CompanyVision: FC = memo(() => (
           {/* <div
           className={`absolute w-full h-full opacity-20 mr-8 bg-yellow-400 rounded-full ${styles.bg_title}`}
         ></div> */}
-          <div className={`w-12 h-12 rounded-full my-auto mr-6 ${styles.red_balls}`}></div>
-          <h2 className={`text-4xl my-auto font-bold ${styles.vision_title}`}>Pro-Active</h2>
+          <div
+            className={`w-12 h-12  xl:w-16 xl:h-16 rounded-full my-auto mr-6 ${styles.red_balls}`}
+          ></div>
+          <h2 className={`text-4xl xl:text-5xl my-auto font-bold ${styles.vision_title}`}>
+            Pro-Active
+          </h2>
         </div>
         <p className={`${styles.vision_text} text-xl text-left ml-8 mr-2`}>
           Ketika kegiatan CEO FTUI, diharapkan mahasiswa dapat bersikap proactive dengan ilmu yang

@@ -10,7 +10,7 @@ const Timeline: React.FC = () => {
 
   return (
     <>
-      <div className="xl:mx-12 md:mx-12 mx-3 py-8">
+      <div className="font-Epilogue xl:mx-12 md:mx-10 md:mt-16 mx-3 py-8">
         <div className={`${july ? "" : "hidden"} antialiased bg-white text-gray-800`}>
           <div className="relative container mx-auto px-6 flex flex-col">
             <div className="absolute z-0 w-1 h-full rounded-lg bg-blue-ceo shadow-md left-7 md:mx-auto md:right-0 md:left-0 sm:left-8"></div>

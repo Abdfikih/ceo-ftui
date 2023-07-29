@@ -1,5 +1,5 @@
 export * from "./CompanyMission"
-export * from "./CompanyProfile"
+export * from "./EventsTimeline"
 export * from "./CompanyVision"
 export * from "./EventsCarousel"
 export * from "./LandingHero"
