@@ -38,6 +38,10 @@ const Navbar: FC<NavbarProps> = memo(({ className, mobileToggleId, ...rest }) =>
             <a className="hover:text-blue-ceo">Grand Opening</a>
           </Link>
 
+          <Link href="/notfound" passHref>
+            <a className="hover:text-blue-ceo">Company Visit</a>
+          </Link>
+
           <div className="dropdown dropdown-end">
             <label
               tabIndex={0}
