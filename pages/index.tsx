@@ -11,7 +11,7 @@ const Home: NextPage = () => {
     <Page
       className="flex flex-col select-none -mt-16 gap-16"
       navbarClassName={scrolled ? "bg-white" : "shadow-none"}
-      onScroll={(e) => setScrolled(e.currentTarget.scrollTop > 64)}
+      onScroll={(e) => setScrolled(e.currentTarget.scrollTop > 200)}
     >
       <NewLandingHero />
       {/* <LandingHero /> */}

@@ -75,5 +75,9 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/line-clamp"), require("daisyui")],
+  plugins: [
+    require("@tailwindcss/line-clamp"),
+    require("daisyui"),
+    require("tailwindcss-animated"),
+  ],
 }
