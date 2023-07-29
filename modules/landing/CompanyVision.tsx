@@ -1,19 +1,13 @@
-import React, { FC, memo } from "react"
+import { FC, memo } from "react"
 import styles from "./CompanyVision.module.css"
 
-import { motion, useScroll, useTransform } from "framer-motion"
+import "aos/dist/aos.css"
 
 const CompanyVision: FC = memo(() => {
-  const secRef = React.useRef<HTMLDivElement>(null)
-  const { scrollYProgress } = useScroll({
-    target: secRef,
-    offset: ["start end", "end start"],
-  })
-  const xTransformRight = useTransform(scrollYProgress, [0, 0.1, 0.5, 1], [0, 0, 0, 1000])
   return (
-    <div className="" ref={secRef}>
+    <div className="">
       <div className="container mx-auto flex flex-col xl:px-80">
-        <motion.div className="self-start m-5" style={{ x: xTransformRight }}>
+        <div className="self-start m-5" data-aos="fade-right">
           <div
             className={`mt-5 my-5 flex relative pr-12 bg-blue-500 w-fit rounded-full ${styles.bg_title}`}
           >
@@ -31,7 +25,7 @@ const CompanyVision: FC = memo(() => {
             CEO FTUI akan bersikap inklusif kepada seluruh mahasiswa dengan mengenalkan berbagai
             perusahaan dalam bidang-bidang yang berbeda
           </p>
-        </motion.div>
+        </div>
         <div
           className={`self-end mt-6 my-5 flex relative pl-12 bg-blue-500 w-fit rounded-full ${styles.bg_title_rev}`}
         >
