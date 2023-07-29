@@ -51,7 +51,8 @@ const Navbar: FC<NavbarProps> = memo(({ className, mobileToggleId, ...rest }) =>
               tabIndex={0}
               className="dropdown-content flex flex-col gap-4 mt-2 py-4 px-6 w-max bg-white-ceo rounded-lg shadow-dropdown"
             >
-              <Link href="/workshop#cv" passHref>
+              {/* <Link href="/workshop#cv" passHref> */}
+              <Link href="/notfound" passHref>
                 <a className="flex justify-start items-center gap-3 font-normal normal-case hover:text-blue-ceo">
                   <Image
                     alt=""
@@ -65,7 +66,8 @@ const Navbar: FC<NavbarProps> = memo(({ className, mobileToggleId, ...rest }) =>
                 </a>
               </Link>
 
-              <Link href="/workshop#pm" passHref>
+              {/* <Link href="/workshop#pm" passHref> */}
+              <Link href="/notfound" passHref>
                 <a className="flex justify-start items-center gap-3 font-normal normal-case hover:text-blue-ceo">
                   <Image
                     alt=""
@@ -81,11 +83,13 @@ const Navbar: FC<NavbarProps> = memo(({ className, mobileToggleId, ...rest }) =>
             </div>
           </div>
 
-          <Link href="/jobfair" passHref>
+          {/* <Link href="/jobfair" passHref> */}
+          <Link href="/notfound" passHref>
             <a className="hover:text-blue-ceo">Job Fair</a>
           </Link>
 
-          <Link href="/partnership" passHref>
+          {/* <Link href="/partnership" passHref> */}
+          <Link href="/notfound" passHref>
             <a className="hover:text-blue-ceo">Partnership</a>
           </Link>
 
