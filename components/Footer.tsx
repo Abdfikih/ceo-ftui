@@ -9,13 +9,15 @@ type FooterProps = {
   className?: string
 }
 
-const SocialMediaButton: FC<{ title: string; href: string; iconSrc: string }> = ({
-  title,
-  href,
-  iconSrc,
-}) => (
+const SocialMediaButton: FC<{
+  title: string
+  href: string
+  iconSrc: string
+  width: string
+  height: string
+}> = ({ title, href, iconSrc, width, height }) => (
   <a title={title} href={href} target="_blank" rel="noreferrer">
-    <Image alt={title} src={iconSrc} width={20} height={20} layout="fixed" />
+    <Image alt={title} src={iconSrc} width={width} height={height} layout="fixed" />
   </a>
 )
 
@@ -63,35 +65,45 @@ const Footer: FC<FooterProps> = memo(({ className }) => (
 
         <div className="flex-shrink-0 flex flex-col">
           <h5 className="text-blue-ceo">Find us on Social Media!</h5>
-          <div className="flex justify-center lg:justify-end items-center gap-x-2">
+          <div className="flex justify-center items-center gap-x-2">
             <SocialMediaButton
               title="Email"
               href="mailto:ceoftui@gmail.com"
               iconSrc="/icons/email.svg"
+              width="20"
+              height="20"
             />
 
             <SocialMediaButton
               title="Instagram"
               href="https://www.instagram.com/ceoftui/"
               iconSrc="/icons/instagram.svg"
+              width="16"
+              height="16"
             />
 
             <SocialMediaButton
               title="TikTok"
               href="https://www.tiktok.com/@ceoftui"
               iconSrc="/icons/tiktok.svg"
+              width="16"
+              height="16"
             />
 
             <SocialMediaButton
               title="LinkedIn"
               href="https://www.linkedin.com/company/ceo-ftui2022/"
               iconSrc="/icons/linkedin.svg"
+              width="16"
+              height="16"
             />
 
             <SocialMediaButton
               title="YouTube"
               href="https://www.youtube.com/channel/UCORRlKxjKlKOr2zvy1GOfYg"
               iconSrc="/icons/youtube.svg"
+              width="17"
+              height="17"
             />
           </div>
         </div>

@@ -25,14 +25,12 @@ const Navbar: FC<NavbarProps> = memo(({ className, mobileToggleId, ...rest }) =>
 
   return (
     <div
-      className={twMerge(
-        "navbar bg-white-ceo sticky top-0 shadow-navbar select-none z-50",
-      )}
+      className={twMerge("navbar bg-white-ceo sticky top-0 shadow-navbar select-none z-50")}
       {...rest}
     >
       <div className="container">
         <Link href="/" passHref>
-          <Image alt="" src="/logo.svg" width={150} height={80} layout="fixed" />
+          <Image alt="" src="/logo.png" width={150} height={40} layout="fixed" />
         </Link>
 
         <div className="hidden lg:flex flex-none justify-end items-center gap-10 ml-auto">

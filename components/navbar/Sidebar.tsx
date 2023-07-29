@@ -30,7 +30,7 @@ const Sidebar: FC<SidebarProps> = memo(({ className }) => {
       )}
     >
       <Link href="/" passHref>
-        <Image alt="" src="/logo.svg" width={150} height={80} layout="fixed" />
+        <Image alt="" src="/logo.png" width={150} height={40} layout="fixed" />
       </Link>
       <hr />
 
