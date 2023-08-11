@@ -64,10 +64,10 @@ const GrandOpeningDetails: FC<GrandOpeningDetailsProps> = memo(({ className }) =
         </a>
       </div>
 
-      <div className="relative w-full aspect-[7/10] order-first md:order-last">
+      <div className="relative w-4/5 aspect-[7/10] order-first md:order-last mx-auto">
         <Image
           alt="Poster Grand Opening"
-          src="/images/coming-soon.png"
+          src="/images/Poster-Grand-Opening.jpg"
           layout="fill"
           objectFit="contain"
         />
